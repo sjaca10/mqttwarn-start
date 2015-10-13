@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS test;
+
+USE test;
+
+CREATE TABLE IF NOT EXISTS names(
+    id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    number INT NOT NULL
+);

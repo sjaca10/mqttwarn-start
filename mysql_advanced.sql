@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS company;
+
+USE company;
+
+CREATE TABLE IF NOT EXISTS contact(
+    id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    number INT,
+    date TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS ping(
+    latitude FLOAT NOT NULL,
+    longitude FLOAT NOT NULL,
+    date TIMESTAMP
+);
