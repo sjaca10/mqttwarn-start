@@ -1,0 +1,2 @@
+mosquitto_pub -t company/client1/jcervantes/cms/contact/new -m '{"firstname":"Arturo", "lastname":"Aguila", "number":"1"}'
+mosquitto_pub -t company/client2/aaguila/ping/geo -m '{"latitude":"92.6841", "longitude":"105.2847"}'

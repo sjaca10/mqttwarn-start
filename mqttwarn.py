@@ -578,6 +578,7 @@ def send_to_targets(section, topic, payload):
             return
 
     for t in targetlist:
+        logging.debug("---------------- %s ------------------" % (t))
         logging.debug("Message on %s going to %s" % (topic, t))
         # Each target is either "service" or "service:target"
         # If no target specified then notify ALL targets
