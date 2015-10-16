@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-__author__    = 'Javier Aguila <javier@kliento.mx>'
+__author__    = 'Javier Aguila <sjaca10@gmail.com>'
 __copyright__ = ''
 __license__   = ''
 
